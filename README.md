@@ -3,7 +3,7 @@
 ## 📌 Overview
 This project documents the process of turning an old Android tablet into a private, headless home-lab server controlled from macOS. The goal is to learn Linux fundamentals, networking, and basic service management using minimal hardware.
 
-This repository is intentionally documentation-first and learning-focused.
+This repository is intentionally **documentation-first** and **learning-focused**.
 
 ---
 
@@ -11,7 +11,7 @@ This repository is intentionally documentation-first and learning-focused.
 - Learn Linux basics through hands-on experimentation
 - Understand networking using real services
 - Practice remote system administration
-- Build a clean, documented GitHub project for showcase
+- Build a clean, professional GitHub project for showcase
 
 ---
 
@@ -24,6 +24,16 @@ Old Android tablets are often unused but still powerful enough for lightweight s
 High-level system design and reasoning are documented here:
 
 📄 **[Architecture Overview](docs/architecture.md)**
+
+---
+
+## 📚 Documentation
+Detailed explanations and decisions for this project are available below:
+
+- 📐 [Architecture Overview](docs/architecture.md)
+- 🐧 [Linux Environment Decision](docs/environment-decision.md)
+- 🌐 [Networking Notes](docs/networking.md)
+- 🧠 [Lessons Learned](docs/lessons-learned.md)
 
 ---
 
@@ -49,15 +59,17 @@ Automation and monitoring scripts will be documented here:
 ## 🗺️ Project Roadmap
 - [x] Create repository and base structure
 - [x] Write initial README and architecture docs
-- [ ] Prepare Android Linux environment
+- [x] Decide Linux environment (Termux)
+- [ ] Prepare Android environment
 - [ ] Enable SSH access
 - [ ] Add monitoring scripts
-- [ ] Document lessons learned
+- [ ] Document service setup steps
 
 ---
 
 ## 🚧 Project Status
-🟡 Early-stage — documentation and planning phase
+🟡 Early-stage — documentation and planning complete  
+🟢 Implementation starting next
 
 ---
 
@@ -66,8 +78,14 @@ This project prioritizes:
 - Clear documentation
 - Simplicity over performance
 - Learning over production readiness
+- Reproducible steps for beginners
 
 ---
 
 ## ⚠️ Disclaimer
-This project is for educational purposes only and is **not intended for production or public-facing use**.
+This project is for **educational purposes only** and is **not intended for production or public-facing use**.
+
+---
+
+## 👤 Author
+GitHub: **VS-2004**
