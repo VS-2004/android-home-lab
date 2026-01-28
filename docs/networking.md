@@ -19,3 +19,9 @@ The server is accessed using its local IP address assigned by the router.
 - No public port exposure
 - Key-based SSH authentication
 - Minimal services running
+
+## Network Constraints Observed
+
+While testing, mobile hotspot connections were found to block device-to-device communication. SSH and HTTP services were only reachable when both devices were connected to the same local network or via USB tethering.
+
+This highlighted practical limitations of hotspot-based networking and the importance of LAN access for home-lab setups.
