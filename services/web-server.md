@@ -32,3 +32,25 @@ http://<tablet-ip>:8080
 - Service is intended for local network testing only
 - Server runs in the foreground and stops with Ctrl + C
 - No production hardening applied
+
+## System Status Page
+
+In addition to serving static HTML content, the web server exposes a lightweight system status page.
+
+The status page displays:
+- System uptime
+- Disk usage
+- Memory usage
+
+The page is generated using standard Linux commands and served as static HTML.  
+It automatically refreshes at regular intervals to reflect current system state.
+
+### Access Example
+```
+http://<tablet-ip>:8080/status.html
+```
+
+### Design Note
+The built-in Python HTTP server is used in static file mode.  
+Dynamic script execution is intentionally avoided to keep the setup simple and secure.
+
